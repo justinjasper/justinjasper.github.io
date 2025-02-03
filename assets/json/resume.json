@@ -29,11 +29,11 @@
       "url": "https://www.mitre.org/our-impact/mitre-labs/emerging-technology-innovation-center/biotechnology-and-life-sciences",
       "startDate": "2024-06-01",
       "endDate": "Present",
-      "summary": "Developed automation software and AI-driven systems to optimize synthetic biology workflows.",
+      "summary": "",
       "highlights": [
-        "Developed automation software for high-throughput training and fine-tuning of open-source large language models (LLMs).",
-        "Built an LLM-driven retrieval augmented generation (RAG) system using Python, LangChain, LlamaIndex, and Kubernetes.",
-        "Created the BioNet Domain-Specific Language for scaling synthetic biology experiments."
+        "Developed automation software to optimize high-throughput training and fine-tuning processes for open-source large language models (LLMs).",
+        "Developed an LLM-driven retrieval augmented generation system to extract and summarize key insights from complex scientific literature, streamlining knowledge access for synthetic biology workflows (Used scientific python, LangChain, LlamaIndex, Kubernetes).",
+        "Developed the BioNet Domain-Specific Language, an open-source programming language designed to enable extensive scaling of synthetic biology experiments and industrial workflows."
       ]
     },
     {
@@ -42,10 +42,12 @@
       "url": "https://www.tryomniwear.com/",
       "startDate": "2022-12-01",
       "endDate": "2023-12-01",
-      "summary": "Led the development of a B2B virtual try-on platform powered by computer vision and generative AI.",
+      "summary": "",
       "highlights": [
-        "Secured partnerships with retail giants valued at over $1 billion.",
-        "Participated in Stanford’s Launchpad accelerator and Entrepreneur First’s NYC unicorn training program."
+        "Led the development of a cutting-edge B2B virtual try-on platform for e-commerce powered by computer vision and generative AI, catering specifically to the D2C retail clothing sector.",
+        "Spearheaded the B2B growth strategy, successfully acquiring early customer brands. Notably, secured partnerships with a retail giant valued at over <span>$1 billion</span> and a retailer valued at around <span>$250 million</span>",
+        "Established and maintained direct communication channels with corporate executives, ensuring seamless collaboration and addressing clients' unique needs and concerns.",
+        "Participated in Launchpad (Stanford’s premier graduate accelerator) Spring ‘23 and Entrepreneur First’s NYC unicorn training program."
       ]
     }
   ],
@@ -113,24 +115,65 @@
   "projects": [
     {
       "name": "CV Image Processing for CT and Ultrasound-based Tumor Detection",
-      "summary": "Developed a computer vision pipeline for lung CT scans using Python and OpenCV.",
+      "summary": "",
       "highlights": [
+        "Developed a computer vision pipeline for lung CT scans using Python and OpenCV.",
         "Achieved high accuracy in tumor segmentation using an Attention U-Net model.",
         "Implemented K-means clustering for lung tissue classification."
       ],
-      "startDate": "2023-01-01",
-      "endDate": "2023-06-01",
+      "startDate": "03-2024",
+      "endDate": "03-2024"
+      
+    },
+    {
+      "name": "CV Image Processing for Meal Nutritional Analysis",
+      "summary": "",
+      "highlights": [
+        "Developed a computer vision (CV)-based web application that detects and classifies food items from user-uploaded images.",
+        "Trained a ResNet18 convolutional neural network model on a Food image dataset from Kaggle (using Tensorflow).",
+        "Implemented an object detection pipeline to localize and identify food items before classification.",
+        "Built a full-stack web interface using HTML (frontend) and a Python Flask backend to allow users to upload images for real-time food classification."
+      ],
+      "startDate": "01-2025",
+      "endDate": "01-2025",
+      "url": "https://github.com/justinjasper/meal-calorie-predictor"
+    },
+    {
+      "name": "Computational Analysis of NMDA Receptor Antagonist Binding for Chronic Pain Therapeutics",
+      "summary": "",
+      "highlights": [
+        "Investigated the molecular interactions between NMDA receptor antagonists and their binding sites using molecular docking simulations with SwissDock and AutoDock Vina.",
+        "Designed and optimized docking workflows, refining model parameters to maximize accuracy in predicting ligand-receptor interactions.",
+        "Quantified binding affinities to assess antagonist efficacy, providing computational insights for drug repurposing in chronic pain management."
+        
+      ],
+      "startDate": "12-2024",
+      "endDate": "12-2024",
+      "url": ""
+    },
+    {
+      "name": "Custom Heap Allocator (Memory Management & Systems Programming)",
+      "summary": "",
+      "highlights": [
+        "Designed and implemented a custom heap allocator in C, featuring both implicit and explicit free lists for dynamic memory allocation.",
+        "Optimized memory utilization and allocation efficiency by integrating block coalescing, splitting, and best-fit/free-list strategies.",
+        "Implemented a custom malloc, free, realloc, and calloc, improving memory allocation speed and fragmentation handling."
+        
+      ],
+      "startDate": "02-2024",
+      "endDate": "02-2024",
       "url": ""
     },
     {
       "name": "Synthetic Biosensor Development for Pathogen Detection",
-      "summary": "Engineered a novel biosensor using SynNotch receptors for Salmonella detection.",
+      "summary": "",
       "highlights": [
+        "Engineered a novel biosensor using SynNotch receptors for Salmonella detection.",
         "Optimized receptor expression using flow cytometry and Western blotting.",
         "Utilized PCR, gel electrophoresis, and mammalian cell cultures."
       ],
-      "startDate": "2022-09-01",
-      "endDate": "2023-05-01",
+      "startDate": "05-2023",
+      "endDate": "05-2023",
       "url": ""
     }
   ]

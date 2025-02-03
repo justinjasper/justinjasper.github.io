@@ -38,12 +38,12 @@ latest_posts:
 
 Hi there, it's nice to meet you!
 
-My name is Justin and I'm a student at <span class="nice-purple">Stanford University</span> studying <span class="nice-purple">Bioengineering (B.S.)</span> and <span class="nice-purple">Computer Science (M.S.)</span> with a focus in <span class="nice-purple">Artificial Intelligence</span>. 
+My name is Justin and I'm a student at <span class="red-color-dark">Stanford University</span> studying <span class="purple-color">Bioengineering (B.S.)</span> and <span class="purple-color">Computer Science (M.S.)</span> with a focus in <span class="purple-color">Artificial Intelligence</span>. 
 
 I'm deeply passionate about leveraging the intersection of computational biology and machine learning to tackle complex challenges in biomedical research and development. My academic and professional experiences have equipped me with a strong foundation in developing AI-driven solutions, analyzing biological data, and conducting cross-collaborative data-driven research.
 
 
-If you'd like to chat/grab coffee, or you'd like to work together, feel free to email me at <span class="nice-blue">jtjasper[at]stanford[dot]edu</span>.
+If you'd like to chat/grab coffee, or you'd like to work together, feel free to email me at <span class="blue-color-dark">jtjasper[at]stanford[dot]edu</span>.
 
 
 
