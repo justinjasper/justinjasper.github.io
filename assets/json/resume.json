@@ -56,8 +56,8 @@
       "institution": "Stanford University",
       "location": "Palo Alto, CA",
       "url": "https://www.stanford.edu/",
-      "area": "Computer Science - Artificial Intelligence",
-      "studyType": "M.S.",
+      "area": "",
+      "studyType": "M.S. Computer Science - Artificial Intelligence",
       "startDate": "2025-01-01",
       "endDate": "2026-06-01",
       "courses": [
@@ -70,14 +70,16 @@
       "institution": "Stanford University",
       "location": "Palo Alto, CA",
       "url": "https://www.stanford.edu/",
-      "area": "Bioengineering",
-      "studyType": "B.S.",
+      "area": "",
+      "studyType": "B.S. Bioengineering",
       "startDate": "2021-09-01",
       "endDate": "2025-06-01",
       "courses": [
         "Biochemistry & Molecular Biology",
         "Physical Biology of Cells",
-        "Systems Physiology and Design"
+        "Systems Physiology and Design",
+        "Fundamentals for Engineering Biology Lab",
+        "Biomedical System Prototyping Lab"
       ]
     }
   ],
