@@ -24,8 +24,8 @@
   },
   "work": [
     {
-      "name": "MITRE Corporation",
-      "position": "Computational Biology Intern",
+      "name": "Mclean, Virginia",
+      "position": "Computational Biology Intern - MITRE Corporation",
       "url": "https://www.mitre.org/our-impact/mitre-labs/emerging-technology-innovation-center/biotechnology-and-life-sciences",
       "startDate": "2024-06-01",
       "endDate": "Present",
@@ -37,8 +37,8 @@
       ]
     },
     {
-      "name": "Omniwear AI",
-      "position": "Co-Founder, CEO",
+      "name": "Palo Alto, California",
+      "position": "Co-Founder, CEO - Omniwear AI",
       "url": "https://www.tryomniwear.com/",
       "startDate": "2022-12-01",
       "endDate": "2023-12-01",
@@ -88,19 +88,19 @@
       "name": "Computational",
       "level": "Advanced",
       "keywords": [
-        "Python, C++, C, MATLAB, UNIX",
-        "TensorFlow, LangChain, LlamaIndex, Scikit-learn",
-        "Numpy, Pandas, OpenCV",
-        "Deep Learning, Bayesian Statistics, LLM Training & Deployment"
+        "Languages: Python, C++, C, MATLAB, UNIX",
+        "Frameworks: TensorFlow, LangChain, LlamaIndex, Scikit-learn",
+        "Libraries: Numpy, Pandas, OpenCV",
+        "AI/ML: Deep Learning, Bayesian Statistics, LLM Training & Deployment"
       ]
     },
     {
       "name": "Wet Lab",
       "level": "Proficient",
       "keywords": [
-        "Mammalian Cell Cultures, Bacterial Cultures",
-        "PCR, Gel Electrophoresis, Transfections",
-        "Chromatography, Cell Blotting, Flow Cytometry"
+        "Cell Cultures: Mammalian Cell Cultures, Bacterial Cultures",
+        "Molecular Biology Techniques: PCR, Gel Electrophoresis, Transfections",
+        "Analytical Techniques: Chromatography, Cell Blotting, Flow Cytometry"
       ]
     }
   ],
