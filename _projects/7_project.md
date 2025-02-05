@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 7
-description: with background image
+title: Synthetic Biosensor for Salmonella Detection 
+description: Developed a novel biosensor to detect waterborne Salmonella enterica using a SynNotch receptor system.
 img: assets/img/4.jpg
 importance: 7
-category: work
+category: molecular biology
 related_publications: true
 ---
 

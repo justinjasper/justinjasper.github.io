@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 9
-description: another project with an image 🎉
+title: Custom-Built Centrifuge
+description: Designed and engineered a fully functional centrifuge from scratch, integrating mechanical, electrical, and software components.
 img: assets/img/6.jpg
 importance: 4
-category: fun
+category: systems programming
 ---
 
 Every project has a beautiful feature showcase page.

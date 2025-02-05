@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 8
-description: an other project with a background image and giscus comments
+title: NMDA Receptor Binding for Pain Therapeutics
+description: Investigated the molecular interactions between NMDA receptor antagonists and their binding sites
 img: assets/img/9.jpg
 importance: 8
-category: work
+category: molecular biology
 giscus_comments: true
 ---
 

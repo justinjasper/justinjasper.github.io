@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Computer Vision for Nutritional Analysis
+title: Image-Based Nutritional Analysis
 description: Computer Vision web app for detecting & classifying food objects.
 img: assets/img/platter_results.png
 redirect: https://github.com/justinjasper/cv-nutritional-analysis
 importance: 3
-category: work #Computer Vision (CV)
+category: computer vision
 ---
 
 Every project has a beautiful feature showcase page.

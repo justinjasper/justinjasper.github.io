@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 5
-description: a project with a background image
+title: Custom Heap Allocator
+description: Designed and implemented a custom heap allocator in C, featuring both implicit and explicit free lists for dynamic memory allocation.
 img: assets/img/1.jpg
 importance: 3
-category: fun
+category: systems programming
 ---
 
 Every project has a beautiful feature showcase page.
