@@ -2,7 +2,7 @@
 layout: page
 title: Synthetic Biosensor for Salmonella Detection 
 description: Developed a novel biosensor to detect waterborne Salmonella enterica using a SynNotch receptor system.
-img: assets/img/4.jpg
+img: assets/img/synnotch_screenshot.png
 importance: 7
 category: molecular biology
 related_publications: true

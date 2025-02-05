@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 #subtitle: <a href='#'>Computational Biologist & AI Researcher</a> 
 subtitle: <span class="nice-blue">Computational Biologist & AI Researcher</span>
