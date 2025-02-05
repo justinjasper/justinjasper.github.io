@@ -2,7 +2,7 @@
 layout: page
 title: Computer Vision for Tumor Detection
 description: Computer Vision (CV)-based image processing pipeline for CT and Ultrasound imaging of suspected cancerous growths.
-img: assets/img/12.jpg
+img: assets/img/tumor_screenshot.png
 importance: 1
 category: work #Computer Vision (CV)
 related_publications: true
