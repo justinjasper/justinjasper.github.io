@@ -4,7 +4,7 @@ title: Custom Heap Allocator
 description: Designed and implemented a custom heap allocator in C, featuring both implicit and explicit free lists for dynamic memory allocation.
 img: assets/img/heap_screenshot.png
 importance: 3
-category: systems programming
+category: Systems Programming
 ---
 
 Every project has a beautiful feature showcase page.

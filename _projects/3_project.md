@@ -5,7 +5,7 @@ description: Computer Vision web app for detecting & classifying food objects.
 img: assets/img/platter_results.png
 redirect: https://github.com/justinjasper/cv-nutritional-analysis
 importance: 3
-category: computer vision
+category: Computer Vision
 ---
 
 Every project has a beautiful feature showcase page.
