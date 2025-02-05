@@ -2,7 +2,7 @@
 layout: page
 title: NMDA Receptor Binding for Pain Therapeutics
 description: Investigated the molecular interactions between NMDA receptor antagonists and their binding sites
-img: assets/img/9.jpg
+img: assets/img/NMDA_screenshot.png
 importance: 8
 category: molecular biology
 giscus_comments: true
