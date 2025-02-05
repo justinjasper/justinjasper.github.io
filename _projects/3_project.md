@@ -1,9 +1,9 @@
 ---
 layout: page
-title: project 3 with very long name
-description: a project that redirects to another website
-img: assets/img/7.jpg
-redirect: https://unsplash.com
+title: Computer Vision for Nutritional Analysis
+description: CV web app for detecting & classifying food objects from an image of a meal
+img: assets/img/platter_results.png
+redirect: https://github.com/justinjasper/cv-nutritional-analysis
 importance: 3
 category: work
 ---
