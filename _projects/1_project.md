@@ -53,7 +53,7 @@ Finally, I applied these image masks to all of the CT scans in the collection, a
     </div>
 </div>
 <div class="caption">
-    This image can also have a caption. It's like magic.
+    3D Lung Reconstruction from CT images using Napari.
 </div>
 
 
