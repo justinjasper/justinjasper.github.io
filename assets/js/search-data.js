@@ -34,8 +34,8 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-ct-based-tumor-detection",
-          title: 'CT-Based Tumor Detection',
+          section: "News",},{id: "projects-image-processing-for-tumor-detection",
+          title: 'Image Processing for Tumor Detection',
           description: "Computer Vision (CV)-based image processing pipeline for CT and Ultrasound imaging of suspected cancerous growths.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
