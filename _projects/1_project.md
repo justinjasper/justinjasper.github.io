@@ -43,6 +43,8 @@ Then, I utilized OpenCV image processing functions to further isolate the lung t
     </div>
 </div>
 
+Finally, I applied these image masks to all of the CT scans in the collection, and was able to make a 3D reconstruction of the lungs:
+
 
 <div class="caption">
     Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
