@@ -10,7 +10,7 @@ related_publications: true
 
 I developed this project as part of my Stanford undergraduate coursework in Bioengineering 103: Systems Physiology and Design.
 
-For the first half of the project, I analyzed lung CT scans. CT scans are more likely to show lung abnormalities, including infections and tumors, than routine chest X-rays. This is partially due to the fact that we can use CT scans to create detailed 3D reconstructions of the lungs composed from multiple cross-sectional slices, allowing for comprehensive visualization.
+`PART 1:` For the first half of the project, I analyzed lung CT scans. CT scans are more likely to show lung abnormalities, including infections and tumors, than routine chest X-rays. This is partially due to the fact that we can use CT scans to create detailed 3D reconstructions of the lungs composed from multiple cross-sectional slices, allowing for comprehensive visualization.
 
 
 I started by taking in a set of lung CT scans and applying K-means clustering from Scikit-learn to segment the images by tissue type:
@@ -46,17 +46,21 @@ Then, I utilized OpenCV image processing functions to further isolate the lung t
 Finally, I applied these image masks to all of the CT scans in the collection, and was able to make a 3D reconstruction of the lungs:
 
 
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/Lung_image_napari.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
     This image can also have a caption. It's like magic.
 </div>
+
+
+`PART 2:` 
+
+
+
 
 You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
 Say you wanted to write a bit about your project before you posted the rest of the images.
