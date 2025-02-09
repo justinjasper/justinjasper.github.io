@@ -49,21 +49,11 @@ ninja.data = [{
           description: "Computer Vision web app for detecting &amp; classifying food objects.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
-            },},{id: "projects-project-4",
-          title: 'project 4',
-          description: "another without an image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/4_project/";
             },},{id: "projects-custom-heap-allocator",
           title: 'Custom Heap Allocator',
           description: "Designed and implemented a custom heap allocator in C, featuring both implicit and explicit free lists for dynamic memory allocation.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/5_project/";
-            },},{id: "projects-project-6",
-          title: 'project 6',
-          description: "a project with no image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/6_project/";
             },},{id: "projects-synthetic-biosensor-for-salmonella-detection",
           title: 'Synthetic Biosensor for Salmonella Detection',
           description: "Developed a novel biosensor to detect waterborne Salmonella enterica using a SynNotch receptor system.",
