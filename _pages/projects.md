@@ -5,7 +5,7 @@ permalink: /projects/
 description: A growing collection of cool projects.
 nav: true
 nav_order: 3
-display_categories: [Computer Vision, Molecular Biology, Systems Programming, work, fun]
+display_categories: [Computer Vision, Molecular Biology, Systems Programming]
 horizontal: false
 ---
 
