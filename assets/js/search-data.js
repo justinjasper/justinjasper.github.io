@@ -39,14 +39,14 @@ ninja.data = [{
           description: "Computer Vision (CV)-based image processing pipeline for CT and Ultrasound imaging of suspected cancerous growths.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
-            },},{id: "projects-2-project",
-          title: '2_project',
-          description: "",
+            },},{id: "projects-3d-virtual-try-on",
+          title: '3D Virtual Try-On',
+          description: "Virtual try-on platform for e-commerce powered by computer vision and generative AI, developed through Omniwear AI.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
-            },},{id: "projects-3-project",
-          title: '3_project',
-          description: "",
+            },},{id: "projects-image-based-nutritional-analysis",
+          title: 'Image-Based Nutritional Analysis',
+          description: "Computer Vision web app for detecting &amp; classifying food objects.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
             },},{id: "projects-custom-heap-allocator",
