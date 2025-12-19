@@ -6,3 +6,6 @@ img: assets/img/platter_results.png
 redirect: https://github.com/justinjasper/cv-nutritional-analysis
 importance: 3
 category: Computer Vision
+---
+
+This project page redirects to the source code repository.

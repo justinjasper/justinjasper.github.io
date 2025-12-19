@@ -7,4 +7,6 @@ redirect: https://www.youtube.com/watch?v=KbPiazkir2U
 importance: 2
 category: Computer Vision
 giscus_comments: true
+---
 
+This project page redirects to a short demo video.
