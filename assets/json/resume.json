@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Justin Jasper",
-    "label": "Computational Biologist, AI Researcher",
+    "label": "Computational Biologist, AI Engineer",
     "image": "",
     "email": "jtjasper@stanford.edu",
     "phone": "(770) 480-8093",
@@ -24,22 +24,35 @@
   },
   "work": [
     {
+      "name": "Hong Kong, China",
+      "position": "Biomedical AI Intern - Centre for Artificial Intelligence and Robotics",
+      "url": "https://www.cair-cas.org.hk/",
+      "startDate": "06-2025",
+      "endDate": "09-2025",
+      "summary": "",
+      "highlights": [
+        "Developed and deployed a novel full-stack landmark detection model for cardiac ultrasound images to assist non-specialist physicians in accurate diagnosis (Pytorch, Python, React, PostgreSQL).",
+        "Collaborated with the Emergency Department at Prince of Wales Hospital to test the cardiac ultrasound model and integrate it into clinical workflows for point-of-care ultrasound",
+        "Designed a hallucination-resistant LLM architecture leveraging biomedical knowledge graphs to support clinical decision-making and treatment plan formulation based on patient medical history and clinical data (Python, Neo4j)"
+      ]
+    },
+    {
       "name": "Mclean, Virginia",
       "position": "Computational Biology Intern - MITRE Corporation",
       "url": "https://www.mitre.org/our-impact/mitre-labs/emerging-technology-innovation-center/biotechnology-and-life-sciences",
       "startDate": "06-2024",
-      "endDate": "Present",
+      "endDate": "12-2024",
       "summary": "",
       "highlights": [
         "Developed automation software to optimize high-throughput training and fine-tuning processes for open-source large language models (LLMs).",
-        "Developed an LLM-driven retrieval augmented generation system to extract and summarize key insights from complex scientific literature, streamlining knowledge access for synthetic biology workflows (Used scientific python, LangChain, LlamaIndex, Kubernetes).",
+        "Developed an LLM-driven retrieval augmented generation system to extract and summarize key insights from complex scientific literature, streamlining knowledge access for synthetic biology workflows (Scientific python, LangChain, LlamaIndex, Kubernetes).",
         "Developed the BioNet Domain-Specific Language, an open-source programming language designed to enable extensive scaling of synthetic biology experiments and industrial workflows."
       ]
     },
     {
       "name": "Palo Alto, California",
       "position": "Co-Founder, CEO - Omniwear AI",
-      "url": "https://www.tryomniwear.com/",
+      "url": "https://www.youtube.com/watch?v=KbPiazkir2U",
       "startDate": "12-2022",
       "endDate": "12-2023",
       "summary": "",
