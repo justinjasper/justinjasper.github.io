@@ -8,7 +8,7 @@ category: Molecular Biology
 related_publications: true
 ---
 
-## Executive Summary
+## Summary
 
 This project focused on the design, construction, and preliminary validation of a mammalian-cell–based biosensor capable of detecting *Salmonella* O-antigens using a SynNotch receptor system. HEK293 cells were engineered to express a surface SynNotch receptor containing an anti-O-antigen scFv and a Myc epitope tag, coupled to a downstream fluorescent reporter (mCherry). Through iterative plasmid preparation, transfection optimization, flow cytometry–based surface expression assays, and co-culture experiments with inactivated model *Salmonella*/*E. coli*, our team established proof-of-concept that receptor expression scales with plasmid dose and that reporter activation trends higher in the presence of bacterial antigen.
 
