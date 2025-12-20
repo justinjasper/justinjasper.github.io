@@ -5,7 +5,7 @@ description: Virtual try-on platform for e-commerce powered by computer vision a
 img: assets/img/Omniwear_screenshot2.png
 redirect: https://www.youtube.com/watch?v=KbPiazkir2U 
 importance: 2
-category: Computer Vision
+category: AI/ML
 giscus_comments: true
 ---
 
