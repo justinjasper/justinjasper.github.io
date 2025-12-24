@@ -39,8 +39,8 @@ ninja.data = [{
           description: "Offline RL + decision-theoretic modeling to recommend when to measure blood glucose in the ICU under uncertainty.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/10_project/";
-            },},{id: "projects-dynamic-ehr-reconstruction",
-          title: 'Dynamic EHR Reconstruction',
+            },},{id: "projects-dynamic-electronic-health-record-reconstruction",
+          title: 'Dynamic Electronic Health Record Reconstruction',
           description: "Ontology-first, VLM-driven pipeline that converts scanned medical record bundles into a structured, queryable patient chart with full provenance and deterministic retrieval.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/11_project/";
