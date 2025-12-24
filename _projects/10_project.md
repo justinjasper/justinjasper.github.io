@@ -1,6 +1,6 @@
 ---
 layout: page
-title: ICU Glucose Monitoring Optimization via Markov Decision Processes
+title: ICU Glucose Monitoring Optimization
 description: Offline RL + decision-theoretic modeling to recommend when to measure blood glucose in the ICU under uncertainty.
 img: assets/img/glucoseMonitor.jpg
 importance: 1
