@@ -25,7 +25,7 @@ Implemented a distinct initiation and cancellation command used to both start an
 
 ## Optical Logic (LED–Phototransistor Pair) + Two Implementations
 
-This centrifuge uses the same core sensing logic in two places: an **LED (emitter)** shining toward a **phototransistor (receiver)**. When the light path is uninterrupted, the phototransistor conducts differently than when the light is blocked. A **comparator** turns that analog change into a clean digital high/low signal that the Arduino can read reliably.
+This centrifuge uses the same core sensing logic in two places: an LED (emitter) shining toward a phototransistor (receiver). When the light path is uninterrupted, the phototransistor conducts differently than when the light is blocked. A comparator turns that analog change into a clean digital high/low signal that the Arduino can read reliably.
 
 ### Core electrical behavior
 

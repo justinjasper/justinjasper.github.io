@@ -59,41 +59,34 @@ Finally, I applied these image masks to all of the CT scans in the collection, a
 
 `PART 2:` 
 
+For the second half of the project, I shifted from CT to breast ultrasound*and explored how deep learning can support early breast cancer detection. Ultrasound is increasingly used as a rapid, point-of-care diagnostic tool, and in some cases can reveal early-stage cancers that are not detected by mammography.
 
+### Dataset
 
+I worked with a breast ultrasound dataset labeled by oncology physicians with three classes: normal, benign**, and malignant. The dataset contains 780 PNG images (average size ~500×500) from 600 patients*(ages 25–75).
 
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+### Approach: tumor segmentation with Attention U-Net
+
+I implemented an attention-based U-Net, which encodes the image into a compact representation and decodes it back into pixel-wise masks.
+
+U-Net’s skip connections preserve fine spatial detail, and the attention mechanism helps the decoder focus on the most relevant regions (in this case, subtle tumor boundaries and context within heterogeneous ultrasound texture). This combination improved mask quality compared to a generic encoder–decoder model.
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
+  <div class="col-sm-10 mt-3 mt-md-0">
+    {% include figure.liquid loading="eager" path="assets/img/maskPartA.png" title="Ultrasound segmentation: model architecture + implementation snapshot" class="img-fluid rounded z-depth-1" %}
+  </div>
 </div>
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+  Attention U-Net segmentation workflow and implementation snapshot.
 </div>
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+After training, I compared ground-truth masks to predictions and used Grad-CAM to visualize which regions most influenced the model’s segmentation decisions:
 
-{% raw %}
-
-```html
 <div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+  <div class="col-sm-12 mt-3 mt-md-0">
+    {% include figure.liquid loading="eager" path="assets/img/maskImages.png" title="Original vs mask vs predicted mask vs Grad-CAM" class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
-```
-
-{% endraw %}
+<div class="caption">
+  Original ultrasound image vs. ground-truth mask vs. predicted mask, with Grad-CAM visualizations across example training epochs.
+</div>

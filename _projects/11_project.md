@@ -28,14 +28,14 @@ The motivating question:
 
 ## Solution & Goals
 
-EHRX proposes an **ontology-first, VLM-driven** pipeline that converts unstructured clinical documents into a structured, queryable EHR representation. The primary goals were to:
+EHRX proposes an ontology-first, VLM-driven pipeline that converts unstructured clinical documents into a structured, queryable EHR representation. The primary goals were to:
 
 - Automatically extract clinically meaningful information from heterogeneous scanned medical documents
 - Reconstruct an EHR-like structure (problems, medications, labs, notes, etc.) rather than flat text
 - Enable deterministic, complete-recall querying over the reconstructed record to avoid hallucinations or missed facts
 - Preserve full provenance and auditability, allowing each extracted fact to be traced to its source document and location
 
-Rather than relying on probabilistic retrieval (e.g., embedding-based RAG), the system emphasizes **determinism, completeness, and clinical safety**.
+Rather than relying on probabilistic retrieval (e.g., embedding-based RAG), the system emphasizes determinism, completeness, and clinical safety.
 
 ## Methods
 
@@ -43,8 +43,8 @@ Rather than relying on probabilistic retrieval (e.g., embedding-based RAG), the 
 
 EHRX is composed of two phases:
 
-- **Offline extraction & structuring**
-- **Online querying & reasoning**
+- Offline extraction & structuring
+- Online querying & reasoning
 
 ### 1) Vision-language model (VLM) extraction
 

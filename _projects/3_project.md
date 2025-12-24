@@ -7,6 +7,12 @@ importance: 3
 category: AI/ML
 ---
 
+<div class="row justify-content-sm-center">
+  <div class="col-sm-10 mt-3 mt-md-0">
+    {% include figure.liquid loading="eager" path="assets/img/platter_results.png" title="Example web app output (nutritional analysis)" class="img-fluid rounded z-depth-1" %}
+  </div>
+</div>
+
 I built this web app for a special lady in my life.
 
 Clinical care is only one part of a person’s health—nutrition and physical activity are critical determinants of long-term wellbeing. Considering the stress and rigor required for daily exercise, dieting should be the easiest part of maintaining health. Yet for many people, tracking meals and nutritional metrics is a daily burden that discourages consistency. I realized that machine learning and computer vision could remove much of that friction and make nutritional tracking feel effortless.
