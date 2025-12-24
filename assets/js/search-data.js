@@ -44,6 +44,11 @@ ninja.data = [{
           description: "Ontology-first, VLM-driven pipeline that converts scanned medical record bundles into a structured, queryable patient chart with full provenance and deterministic retrieval.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/11_project/";
+            },},{id: "projects-nerve-sparing-intracostal-rib-retractor",
+          title: 'Nerve-Sparing Intracostal Rib Retractor',
+          description: "Redesigning thoracotomy retraction to eliminate the root cause of chronic post-surgical pain by avoiding intercostal nerve compression.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/12_project/";
             },},{id: "projects-image-processing-for-tumor-detection",
           title: 'Image Processing for Tumor Detection',
           description: "Computer Vision (CV)-based image processing pipeline for CT and Ultrasound imaging of suspected cancerous growths.",
