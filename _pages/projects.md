@@ -5,7 +5,7 @@ permalink: /projects/
 description: A growing collection of cool projects.
 nav: true
 nav_order: 3
-display_categories: [AI/ML, Molecular Biology, Systems Programming]
+display_categories: [AI/ML, Bioengineering, Systems Programming]
 horizontal: false
 ---
 
