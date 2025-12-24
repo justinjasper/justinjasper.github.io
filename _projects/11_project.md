@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Automated Dynamic EHR Reconstruction from Unstructured Medical Documents
+title: Dynamic EHR Reconstruction
 description: Ontology-first, VLM-driven pipeline that converts scanned medical record bundles into a structured, queryable patient chart with full provenance and deterministic retrieval.
 img: assets/img/EHRX.png
 importance: 2

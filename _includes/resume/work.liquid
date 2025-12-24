@@ -1,6 +1,10 @@
 <ul class="card-text font-weight-light list-group list-group-flush">
-  {% assign work = data[1] | sort: 'startDate' | reverse %}
-  {% for content in work reversed%}
+  {%- comment -%}
+  Keep work experience ordering as it appears in `assets/json/resume.json`.
+  (Previous logic reversed twice, which ended up showing oldest roles first.)
+  {%- endcomment -%}
+  {% assign work = data[1] %}
+  {% for content in work %}
     <li class="list-group-item">
       <div class="row">
         <div class="col-xs-2 cl-sm-2 col-md-2 text-center date-column">
