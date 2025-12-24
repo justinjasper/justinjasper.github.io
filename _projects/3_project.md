@@ -15,4 +15,4 @@ This project is a computer vision–powered web application that takes in a phot
 
 Looking forward, aggregating user history could help surface long-term trends and highlight how eating patterns correlate with wellbeing. With richer data, the same pipeline could support personalized recommendations and low-cost nutritional guidance—bridging the gap between nutrition and technology in a user-friendly way.
 
-- **GitHub**: [cv-nutritional-analysis](https://github.com/justinjasper/cv-nutritional-analysis)
+**GitHub**: [cv-nutritional-analysis](https://github.com/justinjasper/cv-nutritional-analysis)
