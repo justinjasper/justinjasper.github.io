@@ -671,6 +671,27 @@ footer.sticky-bottom {
     img {
       width: 100%;
     }
+
+    // Normalize project thumbnail sizes.
+    // Use `contain` to avoid cropping and keep whitespace as padding (typically below)
+    // when the image doesn't fill the fixed-height container.
+    img.card-img-top {
+      height: 170px;
+      object-fit: contain;
+      object-position: top center;
+      background-color: var(--global-card-bg-color);
+      display: block;
+    }
+
+    // Horizontal project cards use `card-img` for the thumbnail.
+    img.card-img {
+      height: 170px;
+      object-fit: contain;
+      object-position: center;
+      background-color: var(--global-card-bg-color);
+      display: block;
+      padding-top: 0; // override default .card .card-img padding
+    }
   }
 
   .col {
