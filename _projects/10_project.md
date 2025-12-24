@@ -36,4 +36,4 @@ This project demonstrates how reinforcement learning and decision-theoretic mode
 
 ## Full paper
 
-- **PDF**: [CS238 Project Final Paper](assets/pdf/CS238_Project_Final_Paper.pdf)
+- **PDF**: [CS238 Project Final Paper]({{ '/assets/pdf/CS238_Project_Final_Paper.pdf' | relative_url }})
