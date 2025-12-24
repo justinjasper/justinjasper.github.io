@@ -46,7 +46,7 @@ ninja.data = [{
               window.location.href = "/projects/11_project/";
             },},{id: "projects-nerve-sparing-intracostal-rib-retractor",
           title: 'Nerve-Sparing Intracostal Rib Retractor',
-          description: "Redesigning thoracotomy retraction to eliminate the root cause of chronic post-surgical pain by avoiding intercostal nerve compression.",
+          description: "Redesigned thoracotomy retraction to eliminate the root cause of chronic post-surgical pain by avoiding intercostal nerve compression.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/12_project/";
             },},{id: "projects-image-processing-for-tumor-detection",
