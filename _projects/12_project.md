@@ -89,7 +89,9 @@ We designed a nerve-sparing intracostal rib retractor that applies force through
 
 <div class="row justify-content-sm-center">
   <div class="col-sm-10 mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/img/fig1.5c.png" title="Intraoperative testing in a pig model" class="img-fluid rounded z-depth-1" %}
+    <div class="sensitive-media" data-sensitive-media tabindex="0" aria-label="Graphic content (click to reveal)">
+      {% include figure.liquid loading="eager" path="assets/img/fig1.5c.png" title="Intraoperative testing in a pig model" class="img-fluid rounded z-depth-1 sensitive-media__img" %}
+    </div>
   </div>
 </div>
 <div class="caption">

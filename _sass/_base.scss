@@ -714,6 +714,37 @@ footer.sticky-bottom {
   }
 }
 
+// Sensitive / graphic media: blur until user clicks to reveal
+.sensitive-media {
+  position: relative;
+  cursor: pointer;
+  border-radius: 0.25rem;
+  outline: none;
+}
+
+.sensitive-media .sensitive-media__img {
+  filter: blur(18px);
+  transition: filter 160ms ease-in-out;
+}
+
+.sensitive-media:not(.is-revealed)::after {
+  content: "Graphic content — click to reveal";
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  text-align: center;
+  padding: 1rem;
+  color: var(--global-text-color);
+  background: rgba(0, 0, 0, 0.35);
+  border-radius: 0.25rem;
+  font-weight: 600;
+}
+
+.sensitive-media.is-revealed .sensitive-media__img {
+  filter: none;
+}
+
 // Publications
 
 .publications {

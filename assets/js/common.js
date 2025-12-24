@@ -56,4 +56,17 @@ $(document).ready(function () {
   $('[data-toggle="popover"]').popover({
     trigger: "hover",
   });
+
+  // Sensitive / graphic media: click to reveal (remove blur)
+  $(document).on("click", "[data-sensitive-media]", function () {
+    $(this).toggleClass("is-revealed");
+  });
+
+  // Keyboard accessibility (Enter / Space)
+  $(document).on("keydown", "[data-sensitive-media]", function (e) {
+    if (e.key === "Enter" || e.key === " ") {
+      e.preventDefault();
+      $(this).toggleClass("is-revealed");
+    }
+  });
 });
