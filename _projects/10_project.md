@@ -17,7 +17,7 @@ I developed a data-driven decision framework that recommends when to perform blo
 
 ## Methods
 
-- **MDP formulation**: cost-sensitive decision process with actions: wait, finger-prick test**, or lab analysis
+- **MDP formulation**: cost-sensitive decision process with actions: wait, finger-prick test, or lab analysis
 - **Approximate partial observability**: compact belief-state representation (8 features) summarizing recent glucose history, trends, variability, and time since last measurement
 - **Clinically informed reward**: measurement costs plus penalties for missed measurements prior to insulin interventions (used as proxies for hyperglycemic events)
 - **Offline policy learning and baselines (MIMIC-III)**:
@@ -37,5 +37,3 @@ This project demonstrates how reinforcement learning and decision-theoretic mode
 ## Full paper
 
 - **PDF**: [CS238 Project Final Paper](assets/pdf/CS238_Project_Final_Paper.pdf)
-
-
