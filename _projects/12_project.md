@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Nerve-Sparing Intracostal Rib Retractor
-description: Redesigning thoracotomy retraction to eliminate the root cause of chronic post-surgical pain by avoiding intercostal nerve compression.
+description: Redesigned thoracotomy retraction to eliminate the root cause of chronic post-surgical pain by avoiding intercostal nerve compression.
 img: assets/img/PTPS.png
 importance: 1
 category: Bioengineering
@@ -20,6 +20,18 @@ The result is a **nerve-sparing intracostal rib retractor** that achieves surgic
 ## The Problem
 
 Open thoracotomy remains the gold standard for lung cancer resection, requiring mechanical rib spreading for access to the thoracic cavity. The conventional Finochietto retractor achieves this by anchoring onto soft tissue surrounding the ribs—directly impinging the intercostal nerve, which runs along the inferior rib margin under the costal groove.
+
+<div class="row">
+  <div class="col-sm mt-3 mt-md-0">
+    {% include figure.liquid loading="eager" path="assets/img/retractorImage.png" title="Finochietto retractor" class="img-fluid rounded z-depth-1" %}
+  </div>
+  <div class="col-sm mt-3 mt-md-0">
+    {% include figure.liquid loading="eager" path="assets/img/retractorFig.png" title="Retractor insertion into a human ribcage" class="img-fluid rounded z-depth-1" %}
+  </div>
+</div>
+<div class="caption">
+  Conventional thoracotomy rib retraction using a Finochietto retractor (left) and a schematic of retractor placement within the ribcage (right), illustrating how retraction loads are applied near the intercostal space.
+</div>
 
 <div class="row justify-content-sm-center">
   <div class="col-sm-10 mt-3 mt-md-0">
