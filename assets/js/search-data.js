@@ -34,7 +34,12 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-image-processing-for-tumor-detection",
+          section: "News",},{id: "projects-icu-glucose-monitoring-optimization-via-markov-decision-processes",
+          title: 'ICU Glucose Monitoring Optimization via Markov Decision Processes',
+          description: "Offline RL + decision-theoretic modeling to recommend when to measure blood glucose in the ICU under uncertainty.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/10_project/";
+            },},{id: "projects-image-processing-for-tumor-detection",
           title: 'Image Processing for Tumor Detection',
           description: "Computer Vision (CV)-based image processing pipeline for CT and Ultrasound imaging of suspected cancerous growths.",
           section: "Projects",handler: () => {
