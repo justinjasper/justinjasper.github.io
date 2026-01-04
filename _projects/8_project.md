@@ -5,7 +5,7 @@ description: Investigated the molecular interactions between NMDA receptor antag
 img: assets/img/NMDA_screenshot.png
 importance: 8
 category: Bioengineering
-giscus_comments: true
+giscus_comments: false
 ---
 
 ## Overview
