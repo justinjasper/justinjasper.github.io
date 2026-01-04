@@ -23,10 +23,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
-          description: "",
-          section: "News",},{id: "projects-icu-glucose-monitoring-optimization",
+        },{id: "projects-icu-glucose-monitoring-optimization",
           title: 'ICU Glucose Monitoring Optimization',
           description: "Offline RL + decision-theoretic modeling to recommend when to measure blood glucose in the ICU under uncertainty.",
           section: "Projects",handler: () => {
