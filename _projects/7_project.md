@@ -115,7 +115,7 @@ HEK293 cells transfected with receptor and reporter plasmids were co-cultured wi
 
 ## Appendix
 
-- **Plasmid sequence (PDF)**: [My recombinant plasmid sequence]({{ '/assets/pdf/My-recombinant-plasmid-sequence.pdf' | relative_url }})
+- **Plasmid sequence (PDF)**: [My recombinant plasmid sequence](/assets/pdf/My-recombinant-plasmid-sequence.pdf)
 - **Video presentation**: [Project presentation (YouTube)](https://youtu.be/WVyUvVSWCis)
 
 ## References

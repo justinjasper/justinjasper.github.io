@@ -10,8 +10,8 @@ category: Systems Programming
 ## Demo for No-Touch Command Centrifuge
 
 <video controls playsinline preload="metadata" style="width: 100%; max-width: 900px; border-radius: 10px;">
-  <source src="{{ '/assets/video/NoTouchCommand.mp4' | relative_url }}" type="video/mp4">
-  <source src="{{ '/assets/video/NoTouchCommand.mov' | relative_url }}" type="video/quicktime">
+  <source src="/assets/video/NoTouchCommand.mp4" type="video/mp4">
+  <source src="/assets/video/NoTouchCommand.mov" type="video/quicktime">
   Your browser does not support the video tag.
 </video>
 

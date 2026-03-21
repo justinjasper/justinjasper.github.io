@@ -31,9 +31,7 @@
       "endDate": "09-2025",
       "summary": "",
       "highlights": [
-        "Developed and deployed a novel full-stack landmark detection model for cardiac ultrasound images to assist non-specialist physicians in accurate diagnosis (Pytorch, Python, React, PostgreSQL).",
-        "Collaborated with the Emergency Department at Prince of Wales Hospital to test the cardiac ultrasound model and integrate it into clinical workflows for point-of-care ultrasound",
-        "Designed a hallucination-resistant LLM architecture leveraging biomedical knowledge graphs to support clinical decision-making and treatment plan formulation based on patient medical history and clinical data (Python, Neo4j)"
+        "Built full-stack AI tools to improve the accuracy of echocardiogram diagnoses and to support clinical decision-making + treatment plan formulation (Pytorch, Python, React, PostgreSQL, Neo4j)"
       ]
     },
     {
@@ -44,9 +42,7 @@
       "endDate": "12-2024",
       "summary": "",
       "highlights": [
-        "Developed automation software to optimize high-throughput training and fine-tuning processes for open-source large language models (LLMs).",
-        "Developed an LLM-driven retrieval augmented generation system to extract and summarize key insights from complex scientific literature, streamlining knowledge access for synthetic biology workflows (Scientific python, LangChain, LlamaIndex, Kubernetes).",
-        "Developed the BioNet Domain-Specific Language, an open-source programming language designed to enable extensive scaling of synthetic biology experiments and industrial workflows."
+        "Built agentic AI tools to enable extensive scaling of synthetic biology experiments and industrial workflows."
       ]
     },
     {
@@ -57,10 +53,7 @@
       "endDate": "12-2023",
       "summary": "",
       "highlights": [
-        "Led the development of a cutting-edge B2B virtual try-on platform for e-commerce powered by computer vision and generative AI, catering specifically to the D2C retail clothing sector.",
-        "Spearheaded the B2B growth strategy, successfully acquiring early customer brands. Notably, secured partnerships with a retail giant valued at over <span>$1 billion</span> and a retailer valued at around <span>$250 million</span>",
-        "Established and maintained direct communication channels with corporate executives, ensuring seamless collaboration and addressing clients' unique needs and concerns.",
-        "Participated in Launchpad (Stanford’s premier graduate accelerator) Spring ‘23 and Entrepreneur First’s NYC unicorn training program."
+        "Led the development of a virtual try-on platform for e-commerce powered by computer vision and generative AI. Participated in Launchpad (Stanford’s premier graduate accelerator) Spring ‘23 and Entrepreneur First’s NYC unicorn training program. Piloted the tech with Abercrombie & Fitch, Revolve, and Everlane."
       ]
     }
   ],
