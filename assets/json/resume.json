@@ -67,7 +67,11 @@
       "courses": [
         "Artificial Intelligence: Principles and Techniques",
         "Translational Bioinformatics",
-        "Computational Biology: Structure and Organization of Biomolecules and Cells"
+        "Computational Biology: Structure and Organization of Biomolecules and Cells",
+        "Decision Making Under Uncertainty",
+        "Conversational Virtual Assistants with Deep Learning",
+        "Design and Analysis of Algorithms",
+        "BioDesign Building for Digital Health"
       ]
     },
     {
@@ -83,7 +87,8 @@
         "Physical Biology of Cells",
         "Systems Physiology and Design",
         "Fundamentals for Engineering Biology Lab",
-        "Biomedical System Prototyping Lab"
+        "Biomedical System Prototyping Lab",
+        "Senior Capstone Design"
       ]
     }
   ],
@@ -123,37 +128,39 @@
       "name": "CV Image Processing for CT and Ultrasound-based Tumor Detection",
       "summary": "",
       "highlights": [
-        "Developed a computer vision pipeline for lung CT scans using Python and OpenCV.",
-        "Achieved high accuracy in tumor segmentation using an Attention U-Net model.",
-        "Implemented K-means clustering for lung tissue classification."
+        "Built a Python/OpenCV pipeline to segment and reconstruct 3D lung CT scans for cancer diagnosis, training an Attention U-Net (TensorFlow) for malignant/benign classification and applying K-means clustering to segment pulmonary abnormalities."
       ],
       "startDate": "03-2024",
       "endDate": "03-2024"
     },
     {
-      "name": "CV Image Processing for Meal Nutritional Analysis",
+      "name": "Computer Vision for Meal Nutritional Analysis",
       "summary": "",
       "highlights": [
-        "Developed a computer vision (CV)-based web application that detects and classifies food items from user-uploaded images.",
-        "Trained a ResNet18 convolutional neural network model on a Food image dataset from Kaggle (using Tensorflow).",
-        "Implemented an object detection pipeline to localize and identify food items before classification.",
-        "Built a full-stack web interface using HTML (frontend) and a Python Flask backend to allow users to upload images for real-time food classification."
+        "Built a full-stack web app (Flask + HTML) for real-time food nutritional analysis from user-uploaded images, powered by a ResNet18 CNN with an object detection pipeline for food localization and classification."
       ],
       "startDate": "01-2025",
       "endDate": "01-2025",
-      "url": "https://github.com/justinjasper/meal-calorie-predictor"
+      "url": "https://github.com/justinjasper/cv-nutritional-analysis"
     },
     {
       "name": "Computational Analysis of NMDA Receptor Antagonist Binding for Chronic Pain Therapeutics",
       "summary": "",
       "highlights": [
-        "Investigated the molecular interactions between NMDA receptor antagonists and their binding sites using molecular docking simulations with SwissDock and AutoDock Vina.",
-        "Designed and optimized docking workflows, refining model parameters to maximize accuracy in predicting ligand-receptor interactions.",
-        "Quantified binding affinities to assess antagonist efficacy, providing computational insights for drug repurposing in chronic pain management."
+        "Used SwissDock and AutoDock Vina to model NMDA receptor antagonist binding interactions, optimizing docking workflows and quantifying binding affinities to evaluate drug repurposing candidates for chronic pain."
       ],
       "startDate": "12-2024",
       "endDate": "12-2024",
       "url": ""
+    },
+    {
+      "name": "Python-Based Probabilistic Modeling of Biological Systems",
+      "summary": "",
+      "highlights": [
+        "Built Python computational models simulating molecular systems — including ion channel activation, protein-ligand binding, and polymer conformations — using Boltzmann statistical mechanics to predict multi-state behaviors and system energetics."
+      ],
+      "startDate": "03-2024",
+      "endDate": "03-2024"
     },
     {
       "name": "Custom Heap Allocator (Memory Management & Systems Programming)",
@@ -171,9 +178,7 @@
       "name": "Synthetic Biosensor Development for Pathogen Detection",
       "summary": "",
       "highlights": [
-        "Engineered a novel biosensor using SynNotch receptors for Salmonella detection.",
-        "Optimized receptor expression using flow cytometry and Western blotting.",
-        "Utilized PCR, gel electrophoresis, and mammalian cell cultures."
+        "Engineered a novel Salmonella biosensor using a SynNotch receptor system with an anti-Salmonella scFv transfected into HEK293 cells, validated via flow cytometry, Western blotting, PCR, and gel electrophoresis."
       ],
       "startDate": "05-2023",
       "endDate": "05-2023",

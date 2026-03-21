@@ -3,7 +3,7 @@ layout: about
 title: About
 permalink: /
 #subtitle: <a href='#'>Computational Biologist & AI Researcher</a>
-subtitle: <span class="nice-blue">Computational Biologist & AI Researcher</span>
+subtitle: <span class="nice-blue">Computational Biologist, AI Researcher & Founder</span>
 
 profile:
   align: right
@@ -36,8 +36,8 @@ latest_posts:
 
 Hi there, it's nice to meet you!
 
-My name is Justin and I'm a student at <span class="red-color-dark">Stanford University</span> studying <span class="purple-color">Bioengineering (B.S.)</span> and <span class="purple-color">Computer Science (M.S.)</span> with a focus in <span class="purple-color">Artificial Intelligence</span>.
+My name is Justin and I'm a graduate student at <span class="red-color-dark">Stanford University</span> completing my <span class="purple-color">M.S. in Computer Science</span> with a focus in <span class="purple-color">Artificial Intelligence</span>, following my <span class="purple-color">B.S. in Bioengineering</span>.
 
-I'm deeply passionate about leveraging the intersection of computational biology and machine learning to tackle complex challenges in biomedical research and development. My academic and professional experiences have equipped me with a strong foundation in developing AI-driven solutions, analyzing biological data, and conducting cross-collaborative data-driven research.
+I'm deeply passionate about applying AI to solve structural problems in healthcare — particularly how machine learning can make the full complexity of patient data accessible and actionable at the point of care. Alongside my academic work, I'm building in the clinical AI space, focused on translating research into systems that create measurable value for physicians and health systems.
 
-If you'd like to chat/grab coffee, or you'd like to work together, feel free to email me at <span class="blue-color-dark">jtjasper[at]stanford[dot]edu</span>.
+If you'd like to chat, grab coffee, or work together, feel free to email me at <span class="blue-color-dark">jtjasper[at]stanford[dot]edu</span>.
