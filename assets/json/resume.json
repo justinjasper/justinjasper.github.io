@@ -41,9 +41,7 @@
       "startDate": "06-2024",
       "endDate": "12-2024",
       "summary": "",
-      "highlights": [
-        "Built agentic AI tools to enable extensive scaling of synthetic biology experiments and industrial workflows."
-      ]
+      "highlights": ["Built agentic AI tools to enable extensive scaling of synthetic biology experiments and industrial workflows."]
     },
     {
       "name": "Palo Alto, California",
@@ -131,7 +129,6 @@
       ],
       "startDate": "03-2024",
       "endDate": "03-2024"
-      
     },
     {
       "name": "CV Image Processing for Meal Nutritional Analysis",
@@ -153,7 +150,6 @@
         "Investigated the molecular interactions between NMDA receptor antagonists and their binding sites using molecular docking simulations with SwissDock and AutoDock Vina.",
         "Designed and optimized docking workflows, refining model parameters to maximize accuracy in predicting ligand-receptor interactions.",
         "Quantified binding affinities to assess antagonist efficacy, providing computational insights for drug repurposing in chronic pain management."
-        
       ],
       "startDate": "12-2024",
       "endDate": "12-2024",
@@ -166,7 +162,6 @@
         "Designed and implemented a custom heap allocator in C, featuring both implicit and explicit free lists for dynamic memory allocation.",
         "Optimized memory utilization and allocation efficiency by integrating block coalescing, splitting, and best-fit/free-list strategies.",
         "Implemented a custom malloc, free, realloc, and calloc, improving memory allocation speed and fragmentation handling."
-        
       ],
       "startDate": "02-2024",
       "endDate": "02-2024",

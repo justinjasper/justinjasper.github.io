@@ -145,7 +145,7 @@ The motor is driven using PWM: a square wave where duty cycle determines motor s
 ### Closed-loop feedback logic
 
 - Measure RPM from sensor
-- Compute error: \(Error = RPM_{desired} - RPM_{measured}\)
+- Compute error: \(Error = RPM*{desired} - RPM*{measured}\)
 - Adjust PWM duty cycle
 - Repeat continuously
 

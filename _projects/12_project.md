@@ -132,5 +132,3 @@ With further optimization and 510(k) regulatory clearance, this device represent
 - Translational medical device innovation
 - Regulatory and reimbursement strategy
 - Preclinical validation & design iteration
-
-

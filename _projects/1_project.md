@@ -12,9 +12,7 @@ I developed this project as part of my Stanford undergraduate coursework in Bioe
 
 `PART 1:` For the first half of the project, I analyzed lung CT scans. CT scans are more likely to show lung abnormalities, including infections and tumors, than routine chest X-rays. This is partially due to the fact that we can use CT scans to create detailed 3D reconstructions of the lungs composed from multiple cross-sectional slices, allowing for comprehensive visualization.
 
-
 I started by taking in a set of lung CT scans and applying K-means clustering from Scikit-learn to segment the images by tissue type:
-
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -27,7 +25,6 @@ I started by taking in a set of lung CT scans and applying K-means clustering fr
         {% include figure.liquid loading="eager" path="assets/img/kmeans_lung_image.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-
 
 Then, I utilized OpenCV image processing functions to further isolate the lung tissue in the image segmentation:
 
@@ -45,8 +42,6 @@ Then, I utilized OpenCV image processing functions to further isolate the lung t
 
 Finally, I applied these image masks to all of the CT scans in the collection, and was able to make a 3D reconstruction of the lungs:
 
-
-
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/Lung_image_napari.png" title="example image" class="img-fluid rounded z-depth-1" %}
@@ -56,14 +51,13 @@ Finally, I applied these image masks to all of the CT scans in the collection, a
     3D Lung Reconstruction from CT images using Napari.
 </div>
 
+`PART 2:`
 
-`PART 2:` 
-
-For the second half of the project, I shifted from CT to breast ultrasound*and explored how deep learning can support early breast cancer detection. Ultrasound is increasingly used as a rapid, point-of-care diagnostic tool, and in some cases can reveal early-stage cancers that are not detected by mammography.
+For the second half of the project, I shifted from CT to breast ultrasound\*and explored how deep learning can support early breast cancer detection. Ultrasound is increasingly used as a rapid, point-of-care diagnostic tool, and in some cases can reveal early-stage cancers that are not detected by mammography.
 
 ### Dataset
 
-I worked with a breast ultrasound dataset labeled by oncology physicians with three classes: normal, benign**, and malignant. The dataset contains 780 PNG images (average size ~500×500) from 600 patients*(ages 25–75).
+I worked with a breast ultrasound dataset labeled by oncology physicians with three classes: normal, benign\*_, and malignant. The dataset contains 780 PNG images (average size ~500×500) from 600 patients_(ages 25–75).
 
 ### Approach: tumor segmentation with Attention U-Net
 

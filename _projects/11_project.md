@@ -9,7 +9,7 @@ category: AI/ML
 
 ## Abstract
 
-Healthcare interoperability remains limited in practice despite legislative mandates and standardized data models such as  Fast Healthcare Interoperability Resources (FHIR) and  Observational Medical Outcomes
+Healthcare interoperability remains limited in practice despite legislative mandates and standardized data models such as Fast Healthcare Interoperability Resources (FHIR) and Observational Medical Outcomes
 Partnership (OMOP). Most inter-institutional record transfers still occur via faxed or scanned PDFs, producing fragmented, non-queryable document bundles that impose significant cognitive and time burdens on clinicians.
 
 EHRX is a proof-of-concept system that reconstructs an interactive, queryable Electronic Health Record (EHR) from unstructured transferred medical documents. The system leverages vision-language models (VLMs), a predefined clinical ontology, and deterministic retrieval to transform raw document scans into a structured, navigable patient chart while preserving full provenance to source documents. Experiments demonstrate accurate extraction of clinically critical information and reliable multi-document reasoning with **zero hallucinations**.
@@ -85,5 +85,3 @@ Across all experiments, **no hallucinated clinical facts** were observed, valida
 EHRX demonstrates that clinical documents are visually unstructured but semantically predictable, making them well-suited to ontology-driven reconstruction. By combining VLMs with predefined clinical ontologies and deterministic retrieval, EHRX transforms unstructured document bundles into interactive, queryable patient records.
 
 While still a proof-of-concept, the approach suggests a feasible path to improve interoperability without waiting for universal standards adoption—reducing clinician burden, preserving provenance, and avoiding failure modes common in stochastic retrieval systems.
-
-
